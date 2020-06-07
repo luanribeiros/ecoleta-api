@@ -13,6 +13,7 @@ Recicle! O meio ambiente agradece! ♻️
 Tecnologias utilizadas:
 
 - Node.js | api restful
+- Typescript
 - Knex
 - Database sqlite
 - Yup
