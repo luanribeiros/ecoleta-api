@@ -8,13 +8,11 @@ Essa aplicação foi construída na trilha **Booster** da **Next Level Week** di
 
 Recicle! O meio ambiente agradece! ♻️
 
-> Encontre a front desta aplicação [aqui]() e o mobile [aqui]()
-
-## Installing / Getting started
+> Encontre a **Frontend** desta aplicação [aqui](https://github.com/luanribeiros/ecoleta) e o **Mobile** [aqui]()
 
 Tecnologias utilizadas:
 
-- Node.js
+- Node.js | api restful
 - Knex
 - Database sqlite
 - Yup
@@ -27,11 +25,12 @@ Tecnologias utilizadas:
 
 ## Up and running
 
-- Clone this repository: `git clone git@github.com:luanribeiros/ecoleta.git`;
+- Clone this repository: `git clone git@github.com:luanribeiros/ecoleta-api.git`;
 - Remove `.git` directory;
 - Install dependencies: `yarn` (or `npm install`);
-- Run yarn `(or`npm start`) to develop on`http://localhost:3000`
-- Run `yarn build` (or `npm run build`) for production build (files will be generated on `build-prod` directory)
+- Run yarn `(or`npm start`) to develop on`http://localhost:4000`
+- Para o Knex Seed `yarn or npm run knex:seed`
+- Para o Migrate `yarn or npm run knex:migrate`
 
 ## Api Reference
 
@@ -41,10 +40,6 @@ Tecnologias utilizadas:
 
 - UFs: https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet
 
-## Database
-
-Consumindo [api]() com o database sqlite
-
 ## License
 
-[MIT](https://github.com/luanribeiros/ecoleta/blob/master/LICENSE.md) &copy; Luan Ribeiro
+[MIT](https://github.com/luanribeiros/ecoleta-api/blob/master/LICENSE.md) &copy; Luan Ribeiro
